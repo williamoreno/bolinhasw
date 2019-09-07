@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 0.5;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.red{background-color: #E84A5F;}
+.green{background-color: #43955F;}
+.blue{background-color: #3B99C3;}
+.yellow{background-color: #EFD02A;}
+
+
