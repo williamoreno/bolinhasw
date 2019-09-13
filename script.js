@@ -10,12 +10,12 @@ $(document).ready(function(){
        });            
     
    $('.yellow').click(function(){
-         $('.blue').slideToggle('slow');          
+         $('.blue').fadeIn();          
          $('.green').hide(); 
    });            
      
     $('.blue').click(function(){
-         $('.blue, .green ,.red,.yellow ').slideToggle('show')();          
+         $(".green,.red,.yellow ").toggle();          
         
    });            
     
